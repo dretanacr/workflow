@@ -1,5 +1,16 @@
 # @workflow/world-postgres
 
+## 4.3.11
+
+### Patch Changes
+
+- [#4817](https://github.com/vercel/workflow/pull/4817) [`fdaf4ae`](https://github.com/vercel/workflow/commit/fdaf4ae05748367ebe3a09f9ed3459a8f9062507) Thanks [@VaguelySerious](https://github.com/VaguelySerious)! - Fix a process crash when the database closes an idle connection
+
+- [#4756](https://github.com/vercel/workflow/pull/4756) [`8d9f05f`](https://github.com/vercel/workflow/commit/8d9f05fc7725798a7df440f3db1d00d0f131b230) Thanks [@pranaygp](https://github.com/pranaygp)! - Honor `pagination.sortOrder` in `runs.list` and `steps.list`, which always returned newest first.
+
+- Updated dependencies [[`12cf587`](https://github.com/vercel/workflow/commit/12cf587db0403e24eb2c3a918004b1816769ea74)]:
+  - @workflow/world-local@4.4.4
+
 ## 4.3.10
 
 ### Patch Changes
